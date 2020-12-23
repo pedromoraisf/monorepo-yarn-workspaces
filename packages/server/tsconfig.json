@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowJs": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true, 
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".", 
+    "outDir": "./dist",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@test/*": ["./__test__/*"]
+    },
+    "rootDirs": [
+      "./src",
+      "./__test__"
+    ],
+  }, 
+  "include": [
+    "./src/*",
+  ],
+  "exclude": [
+    "./node_modules/*",
+    "dist",
+  ]
+}

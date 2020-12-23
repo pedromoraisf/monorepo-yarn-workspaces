@@ -1,0 +1,14 @@
+{
+  "name": "blog-post-monorepo",
+  "version": "1.0.0",
+  "description": "💫  Boilerplate full stacks of wark workspaces + vue.js + node.js x ts + github actions",
+  "main": "index.js",
+  "author": "Pedro Morais",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
