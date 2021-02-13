@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Pedro Morais",
   "license": "MIT",
+  "scripts": {
+    "test:server": "jest ./packages/server --passWithNoTests",
+    "test:web": "jest ./packages/web --passWithNoTests"
+  },
   "private": true,
   "workspaces": {
     "packages": [
