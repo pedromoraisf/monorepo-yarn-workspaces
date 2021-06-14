@@ -2,7 +2,6 @@ name: Pipeline Server with Test Routine and Deployment in Cloud Provider ğŸ¦¾ğŸ‘
 
 on:
   push:
-    branches: [main]
     paths:
       - "packages/server/**"
 
